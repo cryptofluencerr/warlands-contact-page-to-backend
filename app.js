@@ -38,12 +38,6 @@ app
       message: req.body.message,
     });
     contact.save();
-    // console.log(
-    //   req.body.fname,
-    //   req.body.lname,
-    //   req.body.email,
-    //   req.body.message
-    // );
     res.send("Success!");
   });
 
